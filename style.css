@@ -233,6 +233,7 @@ button:hover{
     margin-right: 1rem;
 }
 footer{
+    margin-top: 5rem;
     height: 50vh;
     background-color: rgb(20, 22, 39);
     display: flex;
@@ -282,3 +283,109 @@ footer{
     color: grey;
     font-size: 14px;
 }
+
+
+@media screen and (max-width:450px){
+    body{
+        padding: 0px;
+    }
+    nav{
+       flex-direction: column;
+        
+    }
+    
+    .nav-link-container{
+        flex-direction: column;
+        margin: 1rem;
+    }
+    .nav-link-container li{
+        margin-bottom: 1rem;
+    }
+    .bannner{
+        flex-direction: column-reverse;
+    } 
+    .banner-img{
+        width: 100%;
+    }
+    .banner-tet{
+        width: 100%;
+        padding: 2rem;
+    }
+    .card-section{
+        padding: 0px;
+     }
+     .card-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-bottom: 15px;
+    }
+    .card-container img{
+        margin-top: 1.25rem;
+    } 
+    .play-container{
+        flex-direction: column;
+    }
+    .play-container-tet{
+        width: 100%;
+        text-align: center;
+        padding-right: 0px;
+        margin-bottom: 5rem;
+    }
+    .play-img{
+  
+        width: 80%;
+        
+    }
+    .play-img-child img{
+        width: 50%;
+        top: 12rem;
+        left: -5rem;
+    }
+    .button-group{
+        margin-top: 8rem;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+    }
+    .button button{
+        font-size: xx-small;
+        padding: .25rem;
+        margin: 0;
+    }
+    .button img{
+        margin-right: .25rem;
+        width: 40px;
+        height: 40px;
+    }
+    footer{
+        height: 80vh;
+    }
+    .footer-tet, .soci-icon-continer{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 1.5rem;
+        color: #fff;
+        font-size: 18px;
+        text-align: center;
+        margin-top: 3.5rem;
+    }
+    .footer-continer{
+        padding: 1.5rem;
+    }
+    .footer-link-continer{
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 1.5rem;
+        color: grey;
+        margin-bottom: 2.5rem;
+    
+}
+
+.copyright{
+    width: 60%;
+    margin: 0 auto;
+}
+    
+}
+
