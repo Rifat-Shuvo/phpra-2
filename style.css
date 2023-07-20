@@ -322,10 +322,10 @@ footer{
         padding-right: 5rem;
         margin-bottom: 5rem;
     }
-
     footer{
-        height: 50vh;
+        height: 60vh;
     }
+
     .footer-tet, .soci-icon-continer{
         display: grid;
         grid-template-columns: repeat(2,1fr);
@@ -386,6 +386,7 @@ footer{
     }
     .card-container img{
         margin-top: 1.25rem;
+        padding: .5rem;
     } 
     .play-container{
         flex-direction: column;
