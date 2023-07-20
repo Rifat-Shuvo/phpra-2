@@ -140,5 +140,31 @@ line-height: normal;
     margin-left: 20px;
 }
 .card-section{
-    border: 1px solid red;
+   padding: 15px;
+   margin-top: 65px;
+}
+.card-section-title{
+    text-align: center;
+}
+.card-section-title span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.card-section p{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.card-container{
+    width: 100%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.25rem;
+    margin-bottom: 15px;
+}
+.card-container img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
 }
