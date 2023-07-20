@@ -285,7 +285,72 @@ footer{
 }
 
 
-@media screen and (max-width:450px){
+@media only screen and (min-width: 768px) and (max-width: 1020px) {
+    body{
+        padding: 0px;
+    }
+    nav{
+       flex-direction: column;
+        
+    }
+    
+    .nav-link-container{
+        flex-direction: column;
+        margin: 1rem;
+    }
+    .nav-link-container li{
+        margin-bottom: 1rem;
+    }
+    .card-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 1.5rem;
+    }
+
+    .card-container img{
+        margin-top: 1.25rem;
+    } 
+
+    .play-img-child img{
+        width: 50%;
+        top: 15rem;
+        left: -5rem;
+    }
+    .play-container-tet{
+        width: 50%;
+        text-align: center;
+        padding-right: 5rem;
+        margin-bottom: 5rem;
+    }
+
+    footer{
+        height: 50vh;
+    }
+    .footer-tet, .soci-icon-continer{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 1.5rem;
+        color: #fff;
+        font-size: 18px;
+        text-align: center;
+        margin-top: 3.5rem;
+    }
+    
+    .footer-link-continer{
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 1.5rem;
+        color: grey;
+        margin-bottom: 2.5rem;
+    
+}
+
+
+}
+
+
+@media screen and (max-width:575px){
     body{
         padding: 0px;
     }
@@ -309,7 +374,7 @@ footer{
     }
     .banner-tet{
         width: 100%;
-        padding: 2rem;
+        padding: 5rem;
     }
     .card-section{
         padding: 0px;
@@ -338,7 +403,7 @@ footer{
     }
     .play-img-child img{
         width: 50%;
-        top: 12rem;
+        top: 15rem;
         left: -5rem;
     }
     .button-group{
