@@ -2,6 +2,7 @@
 
 *{
     font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
 }
 body{
     max-width: 1440px;
@@ -65,7 +66,7 @@ line-height: normal;
    border-radius: 8px;
 }
 
-.fa-youtube{
+.fa-youtube1{
     color: red;
     padding: 6px;
     font-size: 18px;
@@ -167,4 +168,117 @@ line-height: normal;
     width: 100%;
     height: auto;
     margin-bottom: 15px;
+}
+figcaption{
+    text-align: left;
+}
+.play-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5.5rem;
+    
+}
+.play-container-tet{
+    width: 50%;
+    text-align: right;
+    padding-right: 12rem;
+}
+.play-container-title{
+    font-size: 2.5rem;
+}
+.play-container-title span{
+    color: #F948B2;
+}
+.play-container-dec{
+    font-size: 14px;
+}
+.play-img{
+  
+    width: 50%;
+    position: relative;
+}
+.play-img-parent img{
+    width: 100%; 
+    height: 100%;
+}
+.play-img-child img{
+    width:50%;
+    position: absolute;
+    top: 22rem;
+    left: -8rem;
+}
+.button-group{
+    margin-top: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+.button button{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: .5rem;
+   margin: .75rem;
+   border: none; 
+}
+button:hover{
+    border: 1px solid rgb(235, 41, 73);
+    border-radius: 2.5rem;
+    color: #FF42A5;
+}
+.button img{
+    margin-right: 1rem;
+}
+footer{
+    height: 50vh;
+    background-color: rgb(20, 22, 39);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+}
+.footer-head-tet{
+    font-size: 2.5rem;
+    color: #ffff;
+    font-weight: 700;
+}
+.footer-tet{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 3.5rem;
+}
+.soci-icon-continer{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    margin: 3rem;
+    text-align: center;
+    color: #fff;
+    font-size: 2.5rem;
+}
+.footer-link-continer{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    color: grey;
+    margin-bottom: 1.5rem;
+}
+.footer-link{
+    font-size: 14px;
+    margin-left: 1rem;
+}
+.copyright{
+    text-align: center;
+    color: grey;
+    font-size: 14px;
 }
