@@ -285,7 +285,7 @@ footer{
 }
 
 
-@media only screen and (min-width: 700px) and (max-width: 1020px) {
+@media only screen and (min-width: 600px) and (max-width: 1020px) {
     body{
         padding: 0px;
     }
@@ -350,7 +350,7 @@ footer{
 }
 
 
-@media screen and (max-width:575px){
+@media screen and (max-width:500px){
     body{
         padding: 0px;
     }
@@ -374,7 +374,7 @@ footer{
     }
     .banner-tet{
         width: 100%;
-        padding: 5rem;
+        padding: 0;
     }
     .card-section{
         padding: 0px;
@@ -386,7 +386,7 @@ footer{
     }
     .card-container img{
         margin-top: 1.25rem;
-        padding: .5rem;
+        padding: .25rem;
     } 
     .play-container{
         flex-direction: column;
